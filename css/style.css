@@ -5,6 +5,8 @@ body{
     background-color: #242424;
     height: 100px;
     font-size: 1.625rem;
+    position: fixed;
+    top: 0;
 }
 .header{
     font-family: 'Advent Pro', sans-serif;
@@ -50,6 +52,19 @@ body{
 .header ul li{
     display: inline;
     text-align: center;
+}
+
+.main_block{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    margin-top: 10%;
+    
+}
+
+.main{
+    height: 590px;
+    background: linear-gradient(360deg, #000000 -52.61%, rgba(255, 255, 255, 0) 100%),url('../img/bg.jpg');
+    background-size: cover;
 }
 
 @keyframes showHeader{
