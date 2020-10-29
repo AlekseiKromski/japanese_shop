@@ -1,5 +1,6 @@
-body{
-    height: 2000px;
+body p{
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 .header{
     background-color: #242424;
@@ -66,6 +67,40 @@ body{
     background: linear-gradient(360deg, #000000 -52.61%, rgba(255, 255, 255, 0) 100%),url('../img/bg.jpg');
     background-size: cover;
 }
+.main h1{
+    font-weight: 500;
+    font-size: 2.375rem;
+}
+.categories_block{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    margin-top: 5%;
+}
+.categories_block h1{
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+.categories_block p{
+    font-size: 1.875remrem;
+    font-weight: 400;
+}
+
+.category_1{
+    background: linear-gradient(248.82deg, #6F41D2 0%, #FF375C 100%);
+    border-radius: 28px;
+}
+.category_2{
+    background: linear-gradient(248.82deg, #FF5E5E 0%, #FFC700 100%);
+    border-radius: 28px;    
+}
+.category_3{
+    background: linear-gradient(68.97deg, #EBFF00 0%, #4FCF00 100%);
+    border-radius: 28px;
+}
+.category_1:hover, .category_2:hover, .category_3:hover {
+    background: linear-gradient(180deg, #992037 0%, #000000 100%);
+}
+
 
 @keyframes showHeader{
     from {top: -150px;}
