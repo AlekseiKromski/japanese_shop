@@ -100,8 +100,6 @@ body p{
 .category_1:hover, .category_2:hover, .category_3:hover {
     background: linear-gradient(180deg, #992037 0%, #000000 100%);
 }
-
-
 @keyframes showHeader{
     from {top: -150px;}
     to {top: 0px;}
